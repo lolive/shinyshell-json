@@ -1,0 +1,1 @@
+cat - | search_and_replace ANYTHING_BEFORE_THE_FIRST_DOT '[^\.]*' THE_FIRST_DOT '\.' ''|sort|uniq
