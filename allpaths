@@ -1,0 +1,2 @@
+name_params _JSON_FILENAME
+cat ${JSON_FILENAME:--}|jq 'leaf_paths'|search_and_replace START_OF_LINE '^' __SPACES '[     ]*' __NUMBERS '[0-9]' SPACES ' *' END '$' '\1"\2"'|jq 'join (".")'|search_and_replace ANY_GUILLEMET '#' ''

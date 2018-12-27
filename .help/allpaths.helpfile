@@ -15,4 +15,5 @@ a.1
 b.c
 
 Note: OpenFoodFacts require to strip the first element of each path and sort/uniq the paths.
-We factorized this step in function jsoninnerpaths.
+The command to run for that is:
+cat off.json | allpaths |innerpaths|uniqpaths
