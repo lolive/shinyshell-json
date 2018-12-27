@@ -2,6 +2,7 @@
 
 This package contains the following functions:
 
+<pre>
 
 ## jsoninnerpaths  :
 
@@ -20,6 +21,8 @@ b.y
 c.m
 d.z
 
+</pre>
+<pre>
 
 ## jsonpaths _JSON_FILENAME :
 
@@ -42,3 +45,4 @@ b.c
 Note: OpenFoodFacts require to strip the first element of each path and sort/uniq the paths.
 We factorized this step in function jsoninnerpaths.
 
+</pre>
