@@ -4,7 +4,7 @@ This package contains the following functions:
 
 
 ## jsoninnerpaths  :
-<text>
+<pre>
 Retrieves JSON paths from standard input (usually the result of command jsonpaths), strips the leading path item, and sort/uniq the rest.
 
 For example, for paths:
@@ -19,7 +19,7 @@ b.m
 b.y
 c.m
 d.z
-</text>
+</pre>
 
 ## jsonpaths _JSON_FILENAME :
 
